@@ -1,0 +1,13 @@
+python>=3.8
+torch==1.12.1
+recbole==1.2.0
+datasets==3.1.0
+transformers==4.22.2
+sentencepiece==0.2.0
+faiss-cpu==1.8.0.post1
+scikit-learn>=1.1.2
+numpy>=1.17.2
+pandas>=1.0.0
+tqdm
+jsonlines
+networkx

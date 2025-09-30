@@ -1,0 +1,12 @@
+python src/eval.py \
+    --data_name beauty \
+    --data_dir data/beauty \
+    --seed 42 \
+    --item_size 32 \
+    --seq_size 256 \
+    --num_passage 2 \
+    --split_num 243 \
+    --eval_batch_size 256 \
+    --stopping_step 10 \
+    --all_models_path ckpt/beauty \
+    --logging_dir logs/beauty
